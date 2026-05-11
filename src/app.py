@@ -44,6 +44,7 @@ activities = {
 
 @app.get("/")
 def root():
+    print("Hello from abhi branch!")
     return RedirectResponse(url="/static/index.html")
 
 
